@@ -1,0 +1,44 @@
+
+
+body{
+    font-family:arisal,sans-serif;
+    background-color:lightgraytext-align:center;
+    margin:20px;
+}
+
+/*Heading styling*/
+h1{
+    color:black;                  /*text color*/
+    margin-bottom:30px;             /*space below heading*/
+}
+
+/*product box styling */
+.product-box {
+    background-colour:white;   /*white background*/
+    width:300px;                 /*box width*/ 
+    margin:0 auto;               /*center the box*/
+    padding:15px;                /*inner spacing*/
+    border:2px solid gray;     /*border around*/
+    border-radius:8px;           /*rounded border*/
+}
+
+
+/*product image styling*/
+.product-box image {
+    width:100%;                   /*
+    height:auto;
+    border-radius:5px;
+}
+
+/*product title*/
+.product-box h2 {
+
+}
+
+/*product description*/
+.description {
+
+
+}
+
+/*product price*/
