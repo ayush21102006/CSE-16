@@ -1,44 +1,52 @@
-
-
 body{
-    font-family:arisal,sans-serif;
-    background-color:lightgraytext-align:center;
-    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;       /* Changed font family */
+    margin: 60px;                                    /* Increased margin */
 }
-
-/*Heading styling*/
 h1{
-    color:black;                  /*text color*/
-    margin-bottom:30px;             /*space below heading*/
+    color:black;                                   /* Changed heading color */
+    margin-bottom: 30px;                             /* Increased bottom margin */
+}
+.product-box{
+    background-color: white;                       /* Changed background color */
+    width: 300px;                                    /* Increased width */
+    margin: 0 auto;                                  /* Centered the box */
+    padding:15px;                                    /* Increased padding */
+    border: 2px solid gray;                        /* Changed border style */
+    border-radius:40px;                              /* Increased border radius */ 
+}
+.product-box img{
+    width: 100%;                                     /* Made image responsive */
+    height: auto;                                    /* Maintained aspect ratio */
+    border-radius: 5px;                              /* Added slight border radius to image */
+}
+.product-box h2{ 
+    color: black;                                  /* Changed product title color */
+    font-size:20px;                                  /* Increased font size */
+    margin-top:10px;                                 /* Added top margin */
+}
+.description{
+    color: gray;                                   /* Changed description text color */
+    font-size: 14px;                                 /* Increased font size */
+    margin-top: 5px;                                 /* Added top margin */
 }
 
-/*product box styling */
-.product-box {
-    background-colour:white;   /*white background*/
-    width:300px;                 /*box width*/ 
-    margin:0 auto;               /*center the box*/
-    padding:15px;                /*inner spacing*/
-    border:2px solid gray;     /*border around*/
-    border-radius:8px;           /*rounded border*/
+.price{
+    text-align: center;
+    color: red;                                  /* Changed price color */
+    font-size: 18px;                                 /* Increased font size */
+    font-weight: bold;                               /* Made price bold */
+    margin-top: 10px;                                /* Added top margin */
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  font-size: 14px;
+  border-radius: 114px;
+  cursor: pointer;
 }
 
-
-/*product image styling*/
-.product-box image {
-    width:100%;                   /*
-    height:auto;
-    border-radius:5px;
+button:hover {
+  background-color: #0056b3;
 }
-
-/*product title*/
-.product-box h2 {
-
-}
-
-/*product description*/
-.description {
-
-
-}
-
-/*product price*/
