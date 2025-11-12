@@ -5,7 +5,7 @@ body{
 h1{
     color:black;                                   /* Changed heading color */
     margin-bottom: 30px;                             /* Increased bottom margin */
-}
+}    
 .product-box{
     background-color: white;                       /* Changed background color */
     width: 300px;                                    /* Increased width */
