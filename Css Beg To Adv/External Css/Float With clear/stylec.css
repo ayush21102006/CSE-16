@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.content-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.block-menu {
+    width: 100%;
+}
+
+.box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.clear {
+    clear: both;
+}
+
+.block-menu p {
+    font-size: 16px;
+    margin: 10px;
+}
