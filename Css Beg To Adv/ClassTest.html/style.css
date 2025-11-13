@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;       /* Changed font family */
-    margin: 60px;                                    /* Increased margin */
+    margin: 60px;
+    background-color:grey                                    /* Increased margin */
 }
 h1{
     color:black;                                   /* Changed heading color */
