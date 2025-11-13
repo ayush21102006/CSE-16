@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.block-menu {
+    width: 100%;
+}
+
+.box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.block-menu p {
+    font-size: 16px;
+    margin: 10px;
+}
