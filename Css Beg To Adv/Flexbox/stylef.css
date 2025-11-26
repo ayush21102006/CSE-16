@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center ;
+    background-color:#f0f0f0;
+    height: 100vh ;
+    
+    
+}
+
+.box {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size:1.5em ;
+}
+
+
+.box1{background-color: #2196F3; }
+.box2{background-color: #f44336; }
+.box3{background-color: #ff9800; }      
+.box4{background-color: #9c27b0; }
+.box5{background-color: #009688; }
+.box6{background-color: #e91e63; }
