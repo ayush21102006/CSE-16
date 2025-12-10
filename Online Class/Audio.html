@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Example</title>
+</head>
+<body>
+  <h1>Embedded Audio Examples</h1>
+
+  <!-- Relative Path -->
+  <p><audio src="music.mp3" controls></audio></p>
+
+  <!-- Absolute URL -->
+  <p><audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls></audio></p>
+
+  <!-- Multiple Sources -->
+  <p>
+    <audio controls>
+      <source src="song.mp3" type="audio/mpeg">
+      <source src="song.ogg" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+  </p>
+</body>
+</html>
