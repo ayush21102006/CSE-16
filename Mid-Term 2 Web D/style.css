@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #222, #444);
+  color: white;
+  padding: 20px 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 3px solid #ffcc00;
+}
+
+/* Logo */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffcc00;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  background-color: #333;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+.nav-links li {
+  margin: 0 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #555;
+}
+
+/* Actions (Cart + Login) */
+.actions {
+  background-color: #333;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+.actions a {
+  margin-left: 15px;
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border: 2px solid #ffcc00;
+  border-radius: 6px;
+  background-color: #222;
+}
+
+/* Section Styling */
+section {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(120deg, #f9f9f9, #e6e6e6);
+}
+section h1 {
+  font-size: 2.8rem;
+  color: #222;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+section p {
+  font-size: 1.3rem;
+  color: #555;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; 
+  }
+  .actions {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-links a {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .nav-links a {
+    font-size: 1.1rem;
+  }
+}
