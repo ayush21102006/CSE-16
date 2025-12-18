@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested and Mixed Lists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        /* Continent level */
+        ul {
+            list-style-type: disc; /* bullet points */
+            margin-left: 20px;
+            color: #34495e;
+        }
+
+        /* Country level */
+        ul ul {
+            list-style-type: circle; /* hollow bullets */
+            margin-left: 20px;
+            color: #16a085;
+        }
+
+        /* City level */
+        ol {
+            list-style-type: decimal; /* numbered cities */
+            margin-left: 40px;
+            color: #8e44ad;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>🌍 Continents → Countries → Cities</h2>
+    <ul>
+        <li>Asia
+            <ul>
+                <li>India
+                    <ol>
+                        <li>Delhi</li>
+                        <li>Mumbai</li>
+                        <li>Bangalore</li>
+                    </ol>
+                </li>
+                <li>Japan
+                    <ol>
+                        <li>Tokyo</li>
+                        <li>Osaka</li>
+                        <li>Kyoto</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Europe
+            <ul>
+                <li>France
+                    <ol>
+                        <li>Paris</li>
+                        <li>Lyon</li>
+                        <li>Marseille</li>
+                    </ol>
+                </li>
+                <li>Germany
+                    <ol>
+                        <li>Berlin</li>
+                        <li>Munich</li>
+                        <li>Hamburg</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>North America
+            <ul>
+                <li>USA
+                    <ol>
+                        <li>New York</li>
+                        <li>Los Angeles</li>
+                        <li>Chicago</li>
+                    </ol>
+                </li>
+                <li>Canada
+                    <ol>
+                        <li>Toronto</li>
+                        <li>Vancouver</li>
+                        <li>Montreal</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
