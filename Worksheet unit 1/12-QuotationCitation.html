@@ -1,41 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>HTML Quotation & Citation Elements</title>
+  <title>Quotation & Citation Demo</title>
   <style>
-    body { font-family: system-ui, sans-serif; line-height: 1.6; margin: 24px; }
-    blockquote { margin: 16px 0; padding: 12px 16px; border-left: 4px solid #4b6fff; background: #f6f8ff; }
-    q { quotes: "“" "”" "‘" "’"; }
-    abbr { border-bottom: 1px dotted #666; cursor: help; }
-    address { margin-top: 20px; font-style: normal; color: #444; }
-    cite { font-style: normal; color: #1a3d8f; }
-    .note { color: #666; font-size: 0.95rem; }
+    /* Basic student-friendly CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 20px;
+    }
+
+    h2 {
+      color: darkblue;
+    }
+
+    p {
+      color: #333;
+    }
+
+    q {
+      color: green;
+    }
+
+    blockquote {
+      background-color: #e0f7fa;
+      padding: 10px;
+      border-left: 4px solid blue;
+    }
+
+    cite {
+      color: purple;
+      font-style: italic;
+    }
+
+    abbr {
+      border-bottom: 1px dotted black;
+      cursor: help;
+    }
+
+    address {
+      margin-top: 20px;
+      background-color: #fff3e0;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
   </style>
 </head>
 <body>
 
-  <h2>Inline quotation with &lt;q&gt;</h2>
-  <p>In HTML, the <q>content model</q> defines what elements can appear inside another element.</p>
+  <h2>Short quotation</h2>
+  <p>HTML teacher said: <q>Tags are the building blocks of webpages.</q></p>
 
-  <h2>Block quotation with &lt;blockquote&gt; and cite attribute</h2>
-  <blockquote cite="https://html.spec.whatwg.org/multipage/">
-    “HTML is the cornerstone of the open web platform, designed for documents but evolved to support applications.”
+  <h2>Long quotation</h2>
+  <blockquote>
+    HTML is not a programming language, it is a markup language used to structure content.
   </blockquote>
-  <p class="note">Source referenced via <code>cite</code> attribute on <code>blockquote</code>.</p>
 
-  <h2>Work title or source with &lt;cite&gt;</h2>
-  <p>Definition adapted from <cite>HTML Living Standard</cite>.</p>
+  <h2>Citation</h2>
+  <p>This line is from <cite>HTML Basics Guide</cite>.</p>
 
-  <h2>Abbreviations with &lt;abbr&gt;</h2>
-  <p>HTML works alongside <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="Hypertext Transfer Protocol">HTTP</abbr>, and the <abbr title="Document Object Model">DOM</abbr>.</p>
+  <h2>Abbreviation</h2>
+  <p>We use <abbr title="HyperText Markup Language">HTML</abbr> to make webpages.</p>
 
-  <h2>Contact information with &lt;address&gt;</h2>
+  <h2>Address</h2>
   <address>
-    Maintained by the Web Standards Team<br>
-    Email: standards@example.org<br>
-    Site: https://example.org/web-standards<br>
-    Ghaziabad, Uttar Pradesh, India
+    Created by Ayush<br>
+    Email: ayush@example.com<br>
+    City: Ghaziabad, India
   </address>
 
 </body>
