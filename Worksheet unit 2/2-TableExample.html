@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Table Structure</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      border-collapse: collapse; /* neat borders */
+      width: 60%;
+      margin: 20px auto;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #0066cc;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2; /* zebra stripes */
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Course Table</h2>
+
+  <table>
+    <!-- Header Row -->
+    <tr>
+      <th>Course</th>
+      <th>Duration</th>
+      <th>Level</th>
+    </tr>
+
+    <!-- Data Rows -->
+    <tr>
+      <td>HTML</td>
+      <td>3 Weeks</td>
+      <td>Beginner</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>4 Weeks</td>
+      <td>Intermediate</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>6 Weeks</td>
+      <td>Advanced</td>
+    </tr>
+  </table>
+
+</body>
+</html>
