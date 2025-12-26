@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accessible Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    form {
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 300px;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+    }
+
+    fieldset {
+      border: 1px solid #aaa;
+      padding: 15px;
+      border-radius: 6px;
+    }
+
+    legend {
+      font-weight: bold;
+      padding: 0 6px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 6px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 4px;
+      background-color: #007BFF;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <form action="login.php" method="post">
+    <fieldset>
+      <legend>Login</legend>
+
+      <label for="user">Username:</label>
+      <input id="user" name="username" type="text" required minlength="3" maxlength="15" tabindex="1">
+
+      <label for="pass">Password:</label>
+      <input id="pass" name="password" type="password" required minlength="6" maxlength="20" tabindex="2">
+
+      <button type="submit" tabindex="3">Login</button>
+    </fieldset>
+  </form>
+</body>
+</html>
